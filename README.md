@@ -1,6 +1,6 @@
 # **KUEST**: **K**orean game **U**sage **E**valuation **S**uite for llm **T**ranslation
 
-📄 **논문:** [KUEST: Korean Game Usage Evaluation Suite for LLM Translation](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.86.pdf) (WMT 2026)
+📄 **논문:** [KUEST: Korean Game Usage Evaluation Suite for LLM Translation](https://aclanthology.org/2026.wmt-main.86/) (WMT 2026)
 
 KUEST는 게임 도메인에서 영어를 한국어로 번역할 때 드러나는 기계번역의 취약점을 평가하기 위해 구축한 WMT26 테스트 스위트입니다.
 
@@ -116,13 +116,28 @@ KUEST를 사용하실 경우 아래 논문을 인용해 주세요.
 
 ```bibtex
 @inproceedings{choi-etal-2026-kuest,
-  title     = {{KUEST}: Korean Game Usage Evaluation Suite for {LLM} Translation},
-  author    = {Choi, Minjoo and Jung, Jaejun and Han, Gunwoo and Kim, Junhyeop and
-               Yoon, Yiji and Kim, Hyemi and Cho, Yeonseo and Jang, Jinwoo},
-  booktitle = {Proceedings of the Eleventh Conference on Machine Translation (WMT)},
-  pages     = {1491--1512},
-  year      = {2026},
-  publisher = {Association for Computational Linguistics},
-  url       = {https://www2.statmt.org/wmt26/pdf/2026.wmt-1.86.pdf}
+    title = "{KUEST}: {K}orean game Usage Evaluation Suite for {LLM} Translation",
+    author = "Choi, Minjoo  and
+      Jung, Jaejun  and
+      Han, Gunwoo  and
+      Kim, Junhyeop  and
+      Yoon, Yiji  and
+      Kim, Hyemi  and
+      Cho, Yeonseo  and
+      Jang, Jinwoo",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eleventh Conference on Machine Translation",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.wmt-main.86/",
+    doi = "10.18653/2026.wmt-main.86",
+    pages = "1484--1505",
+    ISBN = "979-8-89176-474-3",
+    abstract = "Despite the growing demand for multilingual game localization, systematic evaluation frameworks for game translation constraints remain largely unexplored. As part of the WMT26 Test Suite Track, we propose KUEST, a test suite comprising 1,796 English-to-Korean segments across four core categories, and evaluate 27 submitted systems. Experimental results demonstrate that standard metrics obscure true model capabilities (e.g., the overall 1st-place system dropping to 15th in creative translation). Furthermore, we reveal residual capability fragmentation{---}category-specific variance that survives the shared general-competence factor and inverts top-tier rankings{---}and observe a ``prompt gap'' where context metadata degrades performance. As such, KUEST serves not only as a test suite but also as an evaluation framework that multi-dimensionally dissects domain-specific translation blind spots hidden behind single composite scores. The dataset is available at https://huggingface.co/datasets/JudyChoi/KUEST."
 }
 ```
