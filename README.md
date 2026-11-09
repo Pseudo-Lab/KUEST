@@ -39,7 +39,7 @@ KUEST는 번역 결과가 유창해 보이더라도 한국어로는 틀릴 수 �
 |---|---:|---|
 | **TA** — Terminology & Accuracy | 331 | 용어집의 표준 번역어 준수, 문맥에 따른 다의어 판별 |
 | **PP** — Persona & Pragmatics | 388 | 화자 페르소나에 맞는 말투·높임법의 일관성, **이중 프롬프트** 구성(baseline / 페르소나 정보를 더한 regime R) |
-| **TR** — Translation Robustness | 507 | 플레이스홀더 순서 변경, 태그 보존, 길이 제한 준수 |
+| **TR** — Technical Robustness | 507 | 플레이스홀더 순서 변경, 태그 보존, 길이 제한 준수 |
 | **CT** — Cultural Transcreation | 570 | 높임법, 의성어, 관용구, 명칭 현지화, 혐오 표현 등 |
 | **합계** | **1,796** | |
 
