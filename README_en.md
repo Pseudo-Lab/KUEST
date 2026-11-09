@@ -39,7 +39,7 @@ KUEST focuses on phenomena where a translation can read fluently yet still be wr
 |---|---:|---|
 | **TA** — Terminology & Accuracy | 331 | Adherence to canonical glossary terms; context-dependent polysemy disambiguation |
 | **PP** — Persona & Pragmatics | 388 | Consistency of speech style and honorifics appropriate to the speaker persona; **dual-prompt** setup (baseline / persona-enriched regime R) |
-| **TR** — Translation Robustness | 507 | Placeholder reordering, tag preservation, length-limit compliance |
+| **TR** — Technical Robustness | 507 | Placeholder reordering, tag preservation, length-limit compliance |
 | **CT** — Cultural Transcreation | 570 | Honorifics, onomatopoeia, idioms, name localization, hate speech, etc. |
 | **Total** | **1,796** | |
 
